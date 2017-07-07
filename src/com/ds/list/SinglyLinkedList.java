@@ -1,10 +1,10 @@
-package com.ds.com.ds.list;
+package com.ds.list;
 
 /**
  * Created by sahuj6 on 6/29/17.
  */
 public class SinglyLinkedList<E> {
-    private static class Node<E> {
+    protected static class Node<E> {
 
         private E element;            // reference to the element stored at this node
         private Node<E> next;         // reference to the subsequent node in the list
@@ -18,9 +18,9 @@ public class SinglyLinkedList<E> {
     }
 
     //The first node in the list. It is not a separate pointer node.
-    private Node<E> head;
-    private Node<E> tail;
-    private int size;
+    protected Node<E> head;
+    protected Node<E> tail;
+    protected int size;
 
     public SinglyLinkedList() {
 

@@ -1,6 +1,6 @@
 package com.ds.stack;
 
-import com.ds.com.ds.list.SinglyLinkedList;
+import com.ds.list.SinglyLinkedList;
 
 /**
  * Created by sahuj6 on 6/29/17.
