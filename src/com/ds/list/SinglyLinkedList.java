@@ -13,6 +13,11 @@ public class SinglyLinkedList<E> {
             next = n;
         }
         public E getElement() { return element; }
+
+        public void setElement(E element) {
+            this.element = element;
+        }
+
         public Node<E> getNext() { return next; }
         public void setNext(Node<E> n) { next = n; }
     }
