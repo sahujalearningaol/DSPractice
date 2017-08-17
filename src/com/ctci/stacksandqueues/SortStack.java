@@ -1,9 +1,9 @@
-package com.ds.general;
+package com.ctci.stacksandqueues;
 
 import java.util.Stack;
 
 /**
- * Created by sahuj6 on 8/16/17.
+ * Created by Sourabh on 8/15/2017.
  */
 public class SortStack {
     public void sort(Stack<Integer> inStack) {
